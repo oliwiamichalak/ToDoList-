@@ -14,6 +14,8 @@
 		F46589722415388500547802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46589712415388500547802 /* Assets.xcassets */; };
 		F46589752415388500547802 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46589742415388500547802 /* Preview Assets.xcassets */; };
 		F46589782415388500547802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46589762415388500547802 /* LaunchScreen.storyboard */; };
+		F46589802415399700547802 /* toDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F465897F2415399700547802 /* toDoItem.swift */; };
+		F4658982241549EC00547802 /*  ToDoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4658981241549EC00547802 /*  ToDoItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		F46589742415388500547802 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F46589772415388500547802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F46589792415388500547802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F465897F2415399700547802 /* toDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDoItem.swift; sourceTree = "<group>"; };
+		F4658981241549EC00547802 /*  ToDoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " ToDoItemView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				F46589792415388500547802 /* Info.plist */,
 				F465896C2415388400547802 /* ToDoList.xcdatamodeld */,
 				F46589732415388500547802 /* Preview Content */,
+				F465897F2415399700547802 /* toDoItem.swift */,
+				F4658981241549EC00547802 /*  ToDoItemView.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -151,6 +157,8 @@
 			files = (
 				F46589692415388400547802 /* AppDelegate.swift in Sources */,
 				F465896E2415388400547802 /* ToDoList.xcdatamodeld in Sources */,
+				F4658982241549EC00547802 /*  ToDoItemView.swift in Sources */,
+				F46589802415399700547802 /* toDoItem.swift in Sources */,
 				F46589702415388400547802 /* ContentView.swift in Sources */,
 				F465896B2415388400547802 /* SceneDelegate.swift in Sources */,
 			);
