@@ -33,7 +33,7 @@ struct ContentView: View {
                             }
                             
                             self.newToDoItem = ""
-                    
+                            
                         }) {
                             Image(systemName: "plus.circle.fill")
                                 .foregroundColor(.green)
