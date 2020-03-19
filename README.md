@@ -1,8 +1,8 @@
-ToDoList 
+# ToDoList 
 
 Basic To-Do List application with CoreData and SwiftUI.
 
-Work in progress, next steps:
+## Work in progress, next steps:
 
 - login page,
 - user info page
